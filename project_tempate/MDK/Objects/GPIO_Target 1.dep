@@ -1,0 +1,1298 @@
+Dependencies for Project 'GPIO', Target 'Target 1': (DO NOT MODIFY !)
+F (..\CMSIS\GD\GD32E50x\Source\system_gd32e50x.c)(0x6570144B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/system_gd32e50x.o -MD)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\CMSIS\GD\GD32E50x\Source\ARM\startup_gd32e50x_cl.s)(0x65A5E2F6)(--cpu=Cortex-M33 --fpu=FPv5-SP -g --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\keil_pack\mdk_v5\pack\GigaDevice\GD32E50x_DFP\1.5.0\Device\Include-ID:\keil_pack\mdk_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527"--pd "GD32E50x_CL SETA 1"--list .\listings\startup_gd32e50x_cl.lst--xref -o .\objects\startup_gd32e50x_cl.o--depend .\objects\startup_gd32e50x_cl.d)
+F (..\FWLIB\Source\gd32e50x_adc.c)(0x65A5E2F6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_adc.o -MD)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_bkp.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_bkp.o -MD)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_can.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_can.o -MD)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+F (..\FWLIB\Source\gd32e50x_cmp.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_cmp.o -MD)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+F (..\FWLIB\Source\gd32e50x_crc.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_crc.o -MD)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_ctc.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_ctc.o -MD)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_dac.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_dac.o -MD)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_dbg.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_dbg.o -MD)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_dma.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_dma.o -MD)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+F (..\FWLIB\Source\gd32e50x_enet.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_enet.o -MD)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdlib.h)(0x5C40E42A)
+F (..\FWLIB\Source\gd32e50x_exmc.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_exmc.o -MD)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_exti.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_exti.o -MD)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_fmc.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_fmc.o -MD)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_fwdgt.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_fwdgt.o -MD)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_gpio.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_gpio.o -MD)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_i2c.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_i2c.o -MD)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_misc.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_misc.o -MD)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_pmu.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_pmu.o -MD)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_rcu.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_rcu.o -MD)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_rtc.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_rtc.o -MD)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_sdio.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_sdio.o -MD)
+I (..\FWLIB\Include\gd32e50x_sdio.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_shrtimer.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_shrtimer.o -MD)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_spi.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_spi.o -MD)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_sqpi.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_sqpi.o -MD)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_timer.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_timer.o -MD)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_tmu.c)(0x65A5E2F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_tmu.o -MD)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_usart.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_usart.o -MD)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\FWLIB\Source\gd32e50x_wwdgt.c)(0x65A5E2F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_wwdgt.o -MD)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\Utilities\gd32e507z_eval.c)(0x659CFAF2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e507z_eval.o -MD)
+I (..\Utilities\gd32e507z_eval.h)(0x659CFAF2)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+F (..\application\main.c)(0x66B48F63)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MD)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+I (..\system\systick.h)(0x659CFAF3)
+F (..\system\gd32e50x_it.c)(0x659D1294)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/gd32e50x_it.o -MD)
+I (..\system\gd32e50x_it.h)(0x659CFAF3)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+I (..\system\systick.h)(0x659CFAF3)
+F (..\system\systick.c)(0x659CFAF3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I D:/keil_pack/mdk_v5/pack/ARM/CMSIS/5.5.1/CMSIS/Include -I ../application -I ../CMSIS -I ../CMSIS/GD/GD32E50x/Include -I ../FWLIB/Include -I ../Utilities -I ../system-I./RTE/_Target_1-ID:/keil_pack/mdk_v5/pack/GigaDevice/GD32E50x_DFP/1.5.0/Device/Include-ID:/keil_pack/mdk_v5/ARM/CMSIS/Include-D__UVISION_VERSION="527" -DGD32E50x_CL -DGD32E50X -DGD32E50X_CL -DUSE_STDPERIPH_DRIVER-o ./objects/systick.o -MD)
+I (..\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x65A5E2F6)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\core_cm33.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\stdint.h)(0x5C40E42A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_version.h)(0x5B971444)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\cmsis_armclang.h)(0x5C8F4DD4)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5A8EB578)
+I (D:\keil_pack\mdk_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5C48BD2A)
+I (D:\keil_pack\mdk_v5\pack\ARM\CMSIS\5.5.1\CMSIS\Include\mpu_armv8.h)(0x5C8F4DD4)
+I (..\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x6570144B)
+I (..\system\gd32e50x_libopt.h)(0x659CFAF3)
+I (..\FWLIB\Include\gd32e50x_adc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_bkp.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_can.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_crc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_ctc.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dac.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dbg.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_dma.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_exti.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_fmc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_fwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_gpio.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_shrtimer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_i2c.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_misc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_pmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_rcu.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_rtc.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_spi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_timer.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_usart.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_wwdgt.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_sqpi.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_enet.h)(0x65A5E2F7)
+I (..\FWLIB\Include\gd32e50x_tmu.h)(0x65A5E2F6)
+I (..\FWLIB\Include\gd32e50x_cmp.h)(0x65A5E2F7)
+I (..\system\systick.h)(0x659CFAF3)
